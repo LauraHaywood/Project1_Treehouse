@@ -2,7 +2,7 @@ var quotes = [
 	{
 		quote: "Don't cry because it's over, smile because it happened.",
 		source: "Dr. Seuss",
-		citation: "",
+		citation: "Popular Quotes",
 		year: "",
 		primaryTag: "life",
 		secondaryTag: "optimism"
@@ -10,16 +10,16 @@ var quotes = [
 	{
 		quote: "Be yourself; everyone else is already taken.",
 		source: "Oscar Wilde",
-		citation: "home",
-		year: "",
+		citation: "Playwright",
+		year: "1880's",
 		primaryTag: "individuality",
 		secondaryTag: ""
 	},
 	{
 		quote: "Be who you are and say what you feel, because those who mind don't matter, and those who matter don't mind.",
 		source: "Bernard M. Baruch",
-		citation: "",
-		year: "",
+		citation: "American Financier",
+		year: "1900's",
 		primaryTag: "individuality",
 		secondaryTag: "inspirational"
 	},

@@ -1,7 +1,7 @@
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
-setInterval(printQuote, 30000);
+
 
 var html;
 var newContent = "";
@@ -12,8 +12,9 @@ var background;
 var quoteNumber = [];
 var quoteTimeInt;
 var tagClass;
+var timedQuote = setInterval(printQuote, 30000);
 
-
+timedQuote;
 
 //Functions to change the background color
 //generate random color number
@@ -148,7 +149,9 @@ function getRandomQuote(){
 
 
 function printQuote(){
+	clearTimeout(timedQuote);
 	getRandomQuote();
+	timedQuote = setInterval(printQuote, 30000);
 
 }
 
